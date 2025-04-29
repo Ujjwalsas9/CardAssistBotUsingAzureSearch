@@ -1,0 +1,14 @@
+# Environment variables
+.env
+
+# Log files
+logs/
+cardassist.log
+cardassist.log.*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Other
+*.log

@@ -1,0 +1,19 @@
+{
+    "card_states": {
+        "123456789": "active"
+    },
+    "card_action_history": [
+        [
+            "123456789",
+            "activated"
+        ],
+        [
+            "123456789",
+            "deactivated"
+        ],
+        [
+            "123456789",
+            "activated"
+        ]
+    ]
+}
