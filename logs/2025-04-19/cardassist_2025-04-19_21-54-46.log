@@ -1,0 +1,90 @@
+2025-04-19 21:54:46,811 - CardAssist - INFO - Initialized chat_history
+2025-04-19 21:54:46,811 - CardAssist - INFO - No card_states.json found, initializing empty card states
+2025-04-19 21:54:46,811 - CardAssist - INFO - Initialized card_states from persistent storage
+2025-04-19 21:54:46,811 - CardAssist - INFO - No card_states.json found, initializing empty action history
+2025-04-19 21:54:46,811 - CardAssist - INFO - Initialized card_action_history from persistent storage
+2025-04-19 21:54:46,811 - CardAssist - INFO - Initialized end_conversation
+2025-04-19 21:54:46,811 - CardAssist - INFO - Initialized last_intent
+2025-04-19 21:54:50,433 - CardAssist - INFO - Loaded SentenceTransformer model
+2025-04-19 21:54:50,636 - CardAssist - INFO - Extracted 29 text chunks from PDF
+2025-04-19 21:54:51,718 - CardAssist - INFO - Index cardassist-index already exists
+2025-04-19 21:54:58,836 - CardAssist - INFO - Uploaded 29 documents to Azure Search index
+2025-04-19 21:54:58,850 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:02,479 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:02,498 - CardAssist - INFO - Received user input: Activate card 123456789
+2025-04-19 21:55:03,471 - CardAssist - INFO - Classified intent: activate
+2025-04-19 21:55:03,475 - CardAssist - INFO - Card 123456789 activated successfully
+2025-04-19 21:55:03,476 - CardAssist - INFO - Performed activate on card 123456789: ✅ Card 123456789 has been activated.
+2025-04-19 21:55:03,478 - CardAssist - INFO - Chat history updated
+2025-04-19 21:55:03,578 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:16,759 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:16,781 - CardAssist - INFO - Received user input: deactivate card 123456789
+2025-04-19 21:55:17,800 - CardAssist - INFO - Classified intent: deactivate
+2025-04-19 21:55:17,802 - CardAssist - INFO - Card 123456789 deactivated successfully
+2025-04-19 21:55:17,802 - CardAssist - INFO - Performed deactivate on card 123456789: 🔒 Card 123456789 has been deactivated.
+2025-04-19 21:55:17,803 - CardAssist - INFO - Chat history updated
+2025-04-19 21:55:17,910 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:21,539 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:21,559 - CardAssist - INFO - Received user input: What is the status of card 123456789?
+2025-04-19 21:55:22,611 - CardAssist - INFO - Classified intent: query_status
+2025-04-19 21:55:22,612 - CardAssist - INFO - Card 123456789 status: inactive
+2025-04-19 21:55:22,612 - CardAssist - INFO - Queried status for card 123456789: ℹ️ Card 123456789 is currently inactive.
+2025-04-19 21:55:22,613 - CardAssist - INFO - Chat history updated
+2025-04-19 21:55:22,703 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:30,017 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:30,044 - CardAssist - INFO - Received user input: thanks
+2025-04-19 21:55:30,809 - CardAssist - INFO - Classified intent: end
+2025-04-19 21:55:30,813 - CardAssist - INFO - Conversation ended by user
+2025-04-19 21:55:30,814 - CardAssist - INFO - Chat history updated
+2025-04-19 21:55:30,926 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:34,866 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:34,888 - CardAssist - INFO - Received user input: What is the status of card 123456789?
+2025-04-19 21:55:35,618 - CardAssist - INFO - Classified intent: query_status
+2025-04-19 21:55:35,619 - CardAssist - INFO - Card 123456789 status: inactive
+2025-04-19 21:55:35,619 - CardAssist - INFO - Queried status for card 123456789: ℹ️ Card 123456789 is currently inactive.
+2025-04-19 21:55:35,621 - CardAssist - INFO - Chat history updated
+2025-04-19 21:55:35,724 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:41,079 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:41,102 - CardAssist - INFO - Received user input: great
+2025-04-19 21:55:41,864 - CardAssist - INFO - Classified intent: end
+2025-04-19 21:55:41,868 - CardAssist - INFO - Conversation ended by user
+2025-04-19 21:55:41,870 - CardAssist - INFO - Chat history updated
+2025-04-19 21:55:41,984 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:52,114 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:52,139 - CardAssist - INFO - Received user input: activate card 123456789
+2025-04-19 21:55:52,873 - CardAssist - INFO - Classified intent: activate
+2025-04-19 21:55:52,877 - CardAssist - INFO - Card 123456789 activated successfully
+2025-04-19 21:55:52,877 - CardAssist - INFO - Performed activate on card 123456789: ✅ Card 123456789 has been activated.
+2025-04-19 21:55:52,879 - CardAssist - INFO - Chat history updated
+2025-04-19 21:55:52,998 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:57,860 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:55:57,883 - CardAssist - INFO - Received user input: What is the status of card 123456789?
+2025-04-19 21:55:58,864 - CardAssist - INFO - Classified intent: query_status
+2025-04-19 21:55:58,865 - CardAssist - INFO - Card 123456789 status: active
+2025-04-19 21:55:58,865 - CardAssist - INFO - Queried status for card 123456789: ℹ️ Card 123456789 is currently active.
+2025-04-19 21:55:58,867 - CardAssist - INFO - Chat history updated
+2025-04-19 21:55:58,974 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:56:04,632 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:56:04,656 - CardAssist - INFO - Received user input: thanks
+2025-04-19 21:56:05,342 - CardAssist - INFO - Classified intent: end
+2025-04-19 21:56:05,346 - CardAssist - INFO - Conversation ended by user
+2025-04-19 21:56:05,347 - CardAssist - INFO - Chat history updated
+2025-04-19 21:56:05,453 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:56:16,886 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:56:16,904 - CardAssist - INFO - Received user input: How do I change my PIN?
+2025-04-19 21:56:17,686 - CardAssist - INFO - Classified intent: knowledge
+2025-04-19 21:56:20,381 - CardAssist - INFO - Knowledge base response: To change your PIN, refer to How to change your PIN in Global Card Access.
+2025-04-19 21:56:20,382 - CardAssist - INFO - Knowledge base query: How do I change my PIN?, Response: To change your PIN, refer to How to change your PIN in Global Card Access.
+2025-04-19 21:56:20,387 - CardAssist - INFO - Chat history updated
+2025-04-19 21:56:20,516 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:56:32,062 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
+2025-04-19 21:56:32,085 - CardAssist - INFO - Received user input: how to change the password?
+2025-04-19 21:56:32,808 - CardAssist - INFO - Classified intent: knowledge
+2025-04-19 21:56:36,236 - CardAssist - INFO - Knowledge base response: 1. Go to Administration → Users from the top of the Program Administration Dashboard or Manage users from the Quick actions menu.
+2. Click the desired user’s name and select Reset Password.
+3. Click Ok. The user will be sent an email providing further instructions on how they can successfully reset their password.
+2025-04-19 21:56:36,236 - CardAssist - INFO - Knowledge base query: how to change the password?, Response: 1. Go to Administration → Users from the top of the Program Administration Dashboard or Manage users from the Quick actions menu.
+2. Click the desired user’s name and select Reset Password.
+3. Click Ok. The user will be sent an email providing further instructions on how they can successfully reset their password.
+2025-04-19 21:56:36,239 - CardAssist - INFO - Chat history updated
+2025-04-19 21:56:36,347 - CardAssist - INFO - Successfully loaded OpenAI API key from environment
